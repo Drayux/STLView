@@ -1,6 +1,6 @@
 ### STLVIEW - The simple, pythonic STL viewer
 
-## ABOUT:
+## ABOUT
   
 STL View is a simple STL file viewer program written for Python 3. This takes
 advantage of TKinter's "create_polygon" method to draw triangles to the screen.
@@ -11,7 +11,7 @@ installed on the system. TKinter is a python window API that comes preinstalled
 on *most* packages of Python 3.  
   
 
-## LIMITATIONS:
+## LIMITATIONS
   
 STL files have two types of formats: an ASCII format, and a binary format. This
 program supports ONLY the latter of the two options, as this is the common form
@@ -23,7 +23,7 @@ performance. On my desktop PC, I experience considerable lag viewing objects
 exceeding 2000 faces, however your experience may vary depending on your system.  
   
 
-## FEATURES:
+## FEATURES
   
 Not only does the program support the I/O of STL filetypes, but it also provides
 a couple options for viewing them. By clicking and dragging on a location within
@@ -43,7 +43,7 @@ not attempt to fix these errors, however it will warn the user of them, in case
 they are apparent when viewing the file.  
   
 
-## USAGE:
+## USAGE
   
 Run the program like any other Python 3 program, typically: `python stlview.py`
 for Windows, and `python3 stlview.py` for OSX/Unix.  
@@ -74,7 +74,7 @@ canvas/window size, the object's relative rotation, the objects relative scale,
 and how many vertices are currently being rendered.  
   
 
-## INCLUDED FILES:
+## INCLUDED FILES
   
 The ZIP file includes: this README file, the Python script 'stlview.py' itself,
 and three example STL files. (Though the program will also support user-supplied
@@ -82,7 +82,7 @@ files!) 'wolf.stl' is the wolf entity model from the popular game Minecraft,
 and king.stl and bishop.stl are both low-poly style chess pieces.  
   
 
-## COURSE AFFILIATION:
+## COURSE AFFILIATION
 
 This project was made in association with CSCI101: Intro to Computer Science at Colorado School of Mines.  
 I took this course late in the pursuit of my degree, so my programming knowledge was much advanced over what was expected of me at the time. This was an open-ended project, so the code and goal is fully of my own fruitiion.  
